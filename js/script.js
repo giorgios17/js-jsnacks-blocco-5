@@ -50,17 +50,15 @@ const zucchine = [
     peso: 38,
     lunghezza: 25
     }
-]
+];
 
+let pesoTotale = 0;
 
+for(let i=0; i < zucchine.length; i++){
+    pesoTotale += zucchine[i].peso;
+}
 
-
-
-
-
-
-
-
+console.log('Il peso totale di tutte le zucchine è', pesoTotale, 'grammi.')
 
 
 //2. Crea 10 oggetti che rappresentano una zucchina. 
