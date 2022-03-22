@@ -3,52 +3,52 @@ const zucchine = [
     {
     tipo: 'Zucchina nera',
     peso: 60,
-    lunghezza: 50
+    lunghezza: 12
     },
     {
     tipo: 'Zucchino romanesco',
     peso: 30,
-    lunghezza: 25
+    lunghezza: 5
     },
     {
     tipo: 'Zucchino fiorentino',
     peso: 75,
-    lunghezza: 32
+    lunghezza: 23
     },
     {
     tipo: 'Zucchina napoletana',
     peso: 65,
-    lunghezza: 34
+    lunghezza: 21
     },
     {
     tipo: 'Zucchine tonde',
     peso: 82,
-    lunghezza: 46
+    lunghezza: 30
     },
     {
     tipo: 'Zucchine trombetta',
     peso: 61,
-    lunghezza: 38
+    lunghezza: 22
     },
     {
     tipo: 'Zucchino giallo',
     peso: 64,
-    lunghezza: 34
+    lunghezza: 25
     },
     {
     tipo: 'Zucchino rugoso friulano',
     peso: 42,
-    lunghezza: 36
+    lunghezza: 10
     },
     {
     tipo: 'Zucchina Crookneck',
     peso: 47,
-    lunghezza: 29
+    lunghezza: 12
     },
     {
     tipo: 'Zucchina pâtisson',
     peso: 38,
-    lunghezza: 25
+    lunghezza: 14
     }
 ];
 
