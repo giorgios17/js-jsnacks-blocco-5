@@ -6,7 +6,7 @@ const students = ['Giorgio', 'Giuseppe', 'Eleonora', 'Gianfilomenopoldo', 'Pancr
 function myFunction(array, num1, num2){
     const newArray = [];
     if(num1 < num2 && num2 <= array.length){
-        for(let i=num1; i <= num2; i++){
+        for(let i=num1+1; i < num2; i++){
             newArray.push(array[i]);
         }
     }
