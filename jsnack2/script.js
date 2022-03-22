@@ -54,7 +54,30 @@ const zucchine = [
     }
 ];
 
+const zucchineLunghe = [];
+const zucchineCorte = [];
+let pesoTotaleZucchineLunghe = 0;
+let pesoTotaleZucchineCorte = 0;
 
+for(let i=0; i < zucchine.length; i++){
+    if(zucchine[i].lunghezza >= 15){
+        zucchineLunghe.push(zucchine[i].peso);
+    }
+    else{
+        zucchineCorte.push(zucchine[i].peso);
+    }
+}
+
+for(let i=0; i < zucchineLunghe.length; i++){
+    pesoTotaleZucchineLunghe += zucchineLunghe[i].peso;
+}
+for(let i=0; i < zucchineCorte.length; i++){
+    pesoTotaleZucchineCorte += zucchineCorte[i].peso;
+}
+console.log('array zucchine lunghe', zucchineLunghe);
+console.log('array zucchine corte', zucchineCorte);
+console.log('Il peso totale delle zucchine più lunghe di 15cm è', pesoTotaleZucchineLunghe);
+console.log('Il peso totale delle zucchine meno lunghe di 15cm è', pesoTotaleZucchineCorte);
 
 
 
